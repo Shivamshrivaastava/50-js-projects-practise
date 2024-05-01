@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --blue: #366fbd;
+  --white: #ffffff;
+  --black: #2e2e2e;
+  --gray: gray;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .menu {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  font-size: 16px;
+}
+
+nav .menu li {
+  cursor: pointer;
+}
+
+nav .buttons {
+  display: flex;
+  gap: 25px;
+}
+
+nav .buttons button {
+  all: unset;
+  max-width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+  padding: 25px 20px 0 45px;
+  gap: 49px;
+}
+
+.home .home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.home .home-content h1 {
+  font-size: 108px;
+  line-height: 102px;
+  font-weight: 800px;
+  width: 596px;
+}
+
+.home .home-content p {
+  font-size: 16px;
+  color: var(--gray);
+  font-weight: 600;
+  width: 595px;
+}
+
+.home .home-content .buttons {
+  display: flex;
+  gap: 40px;
+}
+
+.home .home-content .buttons button {
+  all: unset;
+  font-size: 24px;
+  padding: 6px 16px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.home .home-content .buttons .shopNowBtn {
+  background-color: var(--blue);
+}
+
+.home .home-content .buttons .trendingBtn {
+  color: var(--gray);
+  border: 2px solid var(--gray);
+}
+
+.home .home-content .availability {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.home .home-content .availability p {
+  color: var(--gray);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.home .home-content .availability .shoppingApps {
+  display: flex;
+  gap: 16px;
+}
