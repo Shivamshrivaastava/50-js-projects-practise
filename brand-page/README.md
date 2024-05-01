@@ -1,1 +1,1 @@
-<img src = "../images/Scrrenshot11.png" alt = "logo" />
+<img src = "./public/images/Screenshot11.png" alt = "logo" />
