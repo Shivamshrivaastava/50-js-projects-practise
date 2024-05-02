@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: blueviolet;
+  color: black;
+}
+
+main h1 {
+  color: white;
+}
+
+.toursMain h1 {
+  font-size: 40px;
+  margin: 50px 0 0 0;
+  position: relative;
+}
+
+.toursMain h1::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  bottom: -10%;
+  margin-top: 10px;
+  border-bottom: 4px solid #000;
+}
+
+.box {
+  width: 500px;
+  border: 3px solid white;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.box img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.box .boxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.boxContent h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: blueviolet;
+}
+
+.boxContent p button {
+  font-size: 15px;
+  color: blueviolet;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.priceTag {
+  color: blueviolet;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.priceTag .amount {
+  color: black;
+}
+
+.notInterested {
+  border: 2px solid blueviolet;
+  padding: 8px;
+  margin-top: -5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.notInterested:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.refreshBtn {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  background-color: blueviolet;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.refreshBtn:hover {
+  background-color: white;
+  color: blueviolet;
+}
+
+.refreshBtn:active {
+  transform: scale(0.95);
+}

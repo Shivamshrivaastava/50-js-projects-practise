@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: white;
+  color: black;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+
+.container h1 {
+  font-size: 50px;
+  color: black;
+  margin-bottom: 40px;
+  text-align: center;
+  line-height: 60px;
+  justify-self: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card {
+  flex: 0 0 31.5%;
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid red;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background-color: red;
+  color: white;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.card .btn {
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  background: red;
+  border: 2px solid red;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover .btn {
+  color: red;
+  background: white;
+}
+
+.card .btn:hover {
+  color: white;
+  background: red;
+  border: 2px solid white;
+}
+
+@media (max-width: 969px) {
+  .container h1 {
+    font-size: 40px;
+  }
+  .card {
+    flex: 0 0 47.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card {
+    flex: 0 0 100%;
+  }
+}
