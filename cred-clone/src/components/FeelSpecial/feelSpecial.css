@@ -1,0 +1,22 @@
+.free-space {
+  background-color: var(--bg-red);
+  background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg");
+}
+
+.free-space .photo-section-heading {
+  max-width: 700px;
+}
+
+@media all and (max-width: 1279px) {
+  .free-space {
+    background-position: center bottom;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .free-space {
+    background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg");
+    min-height: 1150px;
+    background-position: right center;
+  }
+}
