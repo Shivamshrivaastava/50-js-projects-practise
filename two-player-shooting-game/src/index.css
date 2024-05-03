@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ============Game Body Styling=========== */
+    .game_body{
+      width: 100%;
+      padding: 20px;
+    }
+    .game_body .heading{
+      text-align: center;
+      margin: 10px 0px;
+    }
+    .game_body .heading h1 span{
+      color: green;
+    }
+    .game_body .heading h2{
+      margin-top: 10px;
+      color: goldenrod;
+    }
+    .game_body .heading p{
+      margin-top: 10px;
+      color: orangered;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    .game_body .heading h2 span{
+      color: red;
+    }
+    .game_body .player_section{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .game_body .player_section .player, .scor{
+      text-align: center;
+    }
+    .game_body .player_section .player img{
+      width: 150px;
+      height: 150px;
+      object-fit: contain;
+    }
+    .game_body .player_section .player .health,.game_body .player_section .player .score, .game_body .player_section .player .fire, .game_body .player_section .player .player_name{
+      margin-top: 10px;
+    }
+    .game_body .player_section .player .player_name p{
+      font-weight: bold;
+      font-size: 25px;
+      color: green;
+    }
+    .game_body .player_section .player .health p{
+      color: green;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .game_body .player_section .player .score p{
+      color: goldenrod;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .game_body .player_section .player .fire p{
+      color: red;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .game_body .play_button{
+      text-align: center;
+      margin-top: 20px;
+    }
+    .game_body .play_button .btn{
+      padding: 10px 15px;
+      outline: none;
+      border: 1px solid greenyellow;
+      background-color: greenyellow;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+/* =========X===Game Body Styling===X======== */
