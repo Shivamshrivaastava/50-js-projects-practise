@@ -1,0 +1,18 @@
+.users {
+    margin-left: 270px; /* Adjust based on sidebar width */
+    padding: 20px;
+  }
+  
+  .users ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .users ul li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
